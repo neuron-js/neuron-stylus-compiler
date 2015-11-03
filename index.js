@@ -16,10 +16,11 @@ function compile (content, options, callback) {
   }
 
   stylus(content)
+  .set('filename', options.filename)
   .use(nib())
   .render(function (err, css) {
     if (err) {
-      return callback();
+      return callback(err);
     }
 
     callback(null, {
