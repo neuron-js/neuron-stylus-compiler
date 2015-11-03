@@ -1,7 +1,7 @@
 {
   "name": "neuron-stylus-compiler",
   "version": "1.0.0",
-  "description": "neuron-stylus-compiler",
+  "description": "The stylus compiler for neuron",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec ./test/*.js"
@@ -11,7 +11,10 @@
     "url": "git://github.com/neuron-js/neuron-stylus-compiler.git"
   },
   "keywords": [
-    "neuron-stylus-compiler"
+    "neuron-stylus-compiler",
+    "stylus",
+    "neuron",
+    "compiler"
   ],
   "engines": {
     "node": ">=0.10.0"
@@ -24,5 +27,10 @@
   "devDependencies": {
     "mocha": "*",
     "chai": "*"
+  },
+  "dependencies": {
+    "mix2": "^1.0.1",
+    "nib": "^1.1.0",
+    "stylus": "^0.52.4"
   }
 }
