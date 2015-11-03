@@ -1,0 +1,28 @@
+{
+  "name": "neuron-stylus-compiler",
+  "version": "1.0.0",
+  "description": "neuron-stylus-compiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neuron-js/neuron-stylus-compiler.git"
+  },
+  "keywords": [
+    "neuron-stylus-compiler"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "neuron-js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neuron-js/neuron-stylus-compiler/issues"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }
+}
