@@ -1,6 +1,6 @@
 {
   "name": "neuron-stylus-compiler",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "The stylus compiler for neuron",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,7 @@
     "chai": "*"
   },
   "dependencies": {
+    "make-array": "^1.0.1",
     "mix2": "^1.0.1",
     "nib": "^1.1.0",
     "stylus": "^0.52.4"
