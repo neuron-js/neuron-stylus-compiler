@@ -40,7 +40,8 @@ function compile (content, options, callback) {
     }
 
     callback(null, {
-      content: css
+      content: css,
+      extname: '.css'
     })
   })
 }
